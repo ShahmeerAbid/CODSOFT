@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/frontend.PNG" alt="frontend" class="logo">
+
+        <!-- ===============================================NAVIGATION BAR ===================================================== -->
+
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="contact.html" class="navbar-link contact-link">Contact</a></li>
+                <li><a href="services.html" class="navbar-link service-link">Services</a></li>
+                <li><a href="Portfolio.html" class="navbar-link portfolio-link">Portfolio</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- ========================================================= MAIN HERO SECTION ================================================ -->
+
+    <section class="section section-portfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Latest Work</h2>
+            <p>
+                As I am running an Online business so I have learned Digital Marketting. And as a Developer,
+                during my Development Course I had compeleted some practice projects. These projects are based on only
+                HTML CSS and JavaScript.
+                <br>
+                Following are link of some projects.
+            </p>
+        </div>
+
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">My Notes</div>
+            <div class="btn p-btn" data-btn-num="2">Light ON & OFF</div>
+            <div class="btn p-btn" data-btn-num="3 ">Jokes</div>
+        </div>
+
+        <div class="container grid grid-three-column portfolio-images">
+            <div class="image-overlay p-btn--1">
+                <img src="assets/web image.jpeg" alt="my works">
+                <div class="overlay">
+                    <a href="#" target="_Notes"
+                        class="common-heading">Project 1</a>
+                </div>
+            </div>
+            <div class="image-overlay p-btn--2">
+                <img src="assets/graphic image.jpeg" alt="my works">
+                <div class="overlay">
+                    <a href="#" target="_light"
+                        class="common-heading">Project 2</a>
+                </div>
+            </div>
+            <div class="image-overlay p-btn--3">
+                <img src="assets/app image.jpg" alt="my works">
+                <div class="overlay">
+                    <a href="#" target="_jokes"
+                        class="common-heading">Project 3</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================== FOOTER ============================================ -->
+
+    <Footer class="section-footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>
+                    Passionate computer science student with a penchant for problem-solving and innovation,
+                    showcasing a dynamic portfolio of projects that exemplify technical prowess and creative thinking.
+                    Love to travel and explore new things.
+                </p>
+            </div>
+            <!-- end -->
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Web Development</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Web Designing</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Digital Marketting</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-address">
+                <h3>Have a Questions?</h3>
+                <address>
+                    <div>
+                        <p>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                            Karachi, Pakistan
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+923332443415 "> +92 3332443415  </a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="mailto:shahmeerabid134@gamil.com"> shahmeerabid134@gamil.com </a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="#"
+                    target="_blank">
+                    <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+                </a>
+                <div class="f-credit">
+                    <p>
+                        Copyright ©2024 All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </Footer>
+
+    <!-- ===============================JAVASRIPT LINKS================================ -->
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>

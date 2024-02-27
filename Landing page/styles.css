@@ -1,0 +1,137 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-image: url(assets/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif; 
+}
+
+.header {
+  width: 100%;
+  background: rgb(76, 62, 78);
+  padding: 0 3rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1000; 
+}
+
+.header h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.navbar-list {
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar-links {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-links:hover {
+  color: rgb(194, 119, 255);
+  transition: all 0.2s linear;
+}
+
+.section-hero {
+  padding: 20rem 0; 
+}
+
+.container {
+  color: #fff;
+  text-align: center;
+}
+
+.heading{
+  padding: 4rem;
+}
+.heading h1 {
+
+  font-size: 4rem;
+  height: 6rem;
+}
+
+.heading h2 {
+  font-size: 2rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.shop-now-btn {
+  background-color: #2974c0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+}
+
+.shop-now-btn:hover {
+  background-color: rgb(194, 119, 255);
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6rem 0; 
+  gap: 2rem;
+  color: #ccc;
+  text-align: center;
+}
+
+.features h3 {
+  font-size: 2rem;
+}
+
+.points ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+
+.footer {
+  background-color: rgb(76, 62, 78);
+  color: #fff;
+  padding: 1rem 0; 
+  text-align: center;
+}
+
+.footer p {
+  margin-top: 1rem;
+}
+
+.footer p a {
+  color: #fff;
+}
+
+.footer p a:hover {
+  transition: all 0.4s linear;
+  color: rgb(255, 11, 255);
+}
+
+.footer .logo {
+  width: 100px;
+}
+
